@@ -14,6 +14,7 @@
 				#contenu {
 					display: flex;
 					flex-flow: wrap;
+					justify-content: space-around;
 				}
 				
 
@@ -70,6 +71,25 @@
 				footer {
 					text-align: center;
 				}
+
+				.contenusItem { 
+					width: calc((100% / 5) - 100px);
+					height: 100px;
+					background-color: gray;
+					border-color: black; border-style: solid; border-width: 1px;
+					margin-bottom: 10px;
+				}
+				.contenuItem{
+				border-width: 1px;
+                 border-style:solid;
+                 border-radius: 25px;
+                 text-align: center;	
+					margin-top: 10px;
+					background-image: linear-gradient(green,white, white);
+;
+width: calc((100% / 4 ) - 40px)
+				}
+
 			</style>
 			
 		</head>
@@ -103,7 +123,7 @@
 					<a href="#deconnexion">Deconnexion</a>
 				</div>
 			</div>
-		
+
 			<div id="contenu">
 				<div id="acceuil" class="contenuItem selecté">
 					<h4>Acceuil</h4>
@@ -147,3 +167,4 @@
 			</footer>
 		</body>
 	</html>
+
