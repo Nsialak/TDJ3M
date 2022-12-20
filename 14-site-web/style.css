@@ -1,0 +1,64 @@
+
+
+            	.menuItem a:hover {
+					color: lightpink;
+				}
+
+#menu {
+					display: flex;
+					flex-flow: wrap;
+					justify-content: flex-end;
+				}
+				
+				.menuItem {
+					float: right;
+					border-top-left-radius: 10px;
+					border-top-right-radius: 15px;
+					padding: 10px;
+					border-color: lightpink;
+					border-style: solid;
+					border-width: 1px;
+
+				}
+			
+				.menuItem a {
+					color: pink;
+					text-decoration: none;
+				}
+			
+				.menuItem a:hover {
+					color: #4CAF50;
+				}
+			
+			
+				.menuItem.active {
+					background-color: hotpink;
+				}
+			
+				.menuItem.active a {
+					color: white;
+				}
+				h1 {
+  text-align: left;
+  text-transform: uppercase;
+  color: hotpink;
+
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid hotpink;
+  padding: 10px;
+}
+
+.shop {
+  margin: auto;
+  width: 50%;
+ 
+ padding: 10px;
+}
